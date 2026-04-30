@@ -1,0 +1,26 @@
+{
+  "name": "zoomlion-ui-agent-skill",
+  "version": "0.1.0",
+  "description": "Unofficial Zoomlion-inspired UI design skill for Codex and Claude Code.",
+  "type": "module",
+  "bin": {
+    "zoomlion-ui-skill": "./bin/install.mjs"
+  },
+  "scripts": {
+    "install-skill": "node ./bin/install.mjs install --target both --scope user",
+    "validate": "node ./scripts/validate-repo.mjs"
+  },
+  "keywords": [
+    "codex",
+    "claude-code",
+    "agent-skill",
+    "ui-design-system",
+    "zoomlion",
+    "industrial-ui",
+    "frontend"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
