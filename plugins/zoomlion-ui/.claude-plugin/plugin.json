@@ -1,0 +1,6 @@
+{
+  "name": "zoomlion-ui",
+  "description": "Adds a /zoomlion-ui skill for Zoomlion-inspired UI design, refactoring, and review.",
+  "version": "0.1.0",
+  "skills": "./skills"
+}
